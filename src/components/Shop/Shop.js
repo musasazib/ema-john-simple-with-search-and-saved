@@ -7,6 +7,7 @@ import './Shop.css';
 const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
+    // products to be rendered on the IU
     const [displayProduct, setDisplayProduct] = useState([]);
 
     useEffect(() => {
